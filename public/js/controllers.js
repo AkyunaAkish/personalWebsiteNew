@@ -6,3 +6,18 @@ app.controller('AboutController', function($scope, $http){
 
   })
 });
+
+app.controller('ProjectsController', function($scope, $http){
+  $scope.message = "projects";
+
+});
+
+app.controller('ResumeController', function($scope, $http){
+  $scope.message = "resume";
+
+});
+
+app.controller('ContactController', function($scope, $http){
+  $scope.message = "contact";
+
+});
