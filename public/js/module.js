@@ -1,1 +1,1 @@
-var app = angular.module('personalWebsiteApp', ['ngRoute']);
+var app = angular.module('personalWebsiteApp', ['ngRoute', 'ngAnimate']);

@@ -8,8 +8,7 @@ img, embed, object, video{
 }
 body{
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  width: 100%;
-
+  padding-top: 50px;
 }
 .clearfix:before, .clearfix:after {
   content: "";
@@ -32,16 +31,39 @@ body{
   color: rgb(81,101,140) !important;
 }
 
-
-
-@media screen and (min-width: 400px) and (max-width: 800px) {
-  .mainDiv{
-    margin-top: 10vw;
-  }
+.homeImage{
+  height: 23vw;
+  width: 100%;
 }
 
-/* @media screen and (min-width: 500px) {
-    body {
-        background-color: lightgreen;
-    }
+.topContainer{
+  margin-top: 20px;
+}
+
+/* .page.ng-enter,
+.page.ng-leave {
+-webkit-transition: 0.2s linear all;
+-moz-transition: 0.2s linear all;
+-o-transition: 0.2s linear all;
+transition: 0.2s linear all;
+opacity:-10;
+} */
+/* .page.ng-enter {
+opacity:1;
+}
+.page.ng-enter-active {
+opacity:1;
+}
+.page.ng-leave {
+opacity:1;
+}
+.page.ng-leave-active {
+opacity:1;
+} */
+
+/* @media (min-width: 900px){
+body{
+padding-top: 50px;
+padding-bottom: 42px;
+}
 } */
