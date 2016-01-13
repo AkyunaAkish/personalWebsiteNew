@@ -1,21 +1,21 @@
 app.config(function($routeProvider, $locationProvider){
   $routeProvider
   .when('/', {
-    templateUrl: '/partials/about.html',
-    controller: 'AboutController'
+    templateUrl: '/partials/main.html',
+    controller: 'MainController'
   })
-  .when('/projects', {
-    templateUrl: '/partials/projects.html',
-    controller: 'ProjectsController'
-  })
-  .when('/resume', {
-    templateUrl: '/partials/resume.html',
-    controller: 'ResumeController'
-  })
-  .when('/contact', {
-    templateUrl: '/partials/contact.html',
-    controller: 'ContactController'
-  })
+  // .when('/projects', {
+  //   templateUrl: '/partials/projects.html',
+  //   controller: 'ProjectsController'
+  // })
+  // .when('/resume', {
+  //   templateUrl: '/partials/resume.html',
+  //   controller: 'ResumeController'
+  // })
+  // .when('/contact', {
+  //   templateUrl: '/partials/contact.html',
+  //   controller: 'ContactController'
+  // })
 
   .otherwise({redirectTo:'/'});
 
