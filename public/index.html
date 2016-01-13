@@ -5,7 +5,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Pacifico|Indie+Flower|Open+Sans+Condensed:300|Cinzel' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="/stylesheets/style.css">
@@ -67,7 +66,8 @@
   <div class="container-fluid">
     <ng-view class='page'></ng-view>
   </div>
-
+  <script src="/js/map.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap"></script>
   <script src="/js/freelancer.js"></script>
   <script src="/js/module.js"></script>
   <script src="/js/controllers.js"></script>
